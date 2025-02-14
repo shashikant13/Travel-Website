@@ -578,26 +578,6 @@ header .search-bar-container label:hover {
   color:var(--orange);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries */
 
 @media (max-width:1200px) {
@@ -628,6 +608,9 @@ header .search-bar-container label:hover {
   border-top: .1rem solid rgba(255,255,255,.2);
   padding: 1rem 2rem;
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
  }
 
  header .navbar.active {
@@ -639,6 +622,8 @@ header .search-bar-container label:hover {
   padding: 1.5rem;
   margin: 1.5rem 0;
   background: #e4d43e;
+  width: 100%;
+  text-align: center;
  }
 }
 
